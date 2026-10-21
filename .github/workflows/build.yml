@@ -18,7 +18,10 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
+
+      - name: Test conversion formatter
+        run: node --test tests/conversion-formatter.test.mjs
 
       - name: Set up Java
         uses: actions/setup-java@v4

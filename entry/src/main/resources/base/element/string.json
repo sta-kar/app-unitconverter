@@ -2,11 +2,11 @@
   "string": [
     {
       "name": "module_desc",
-      "value": "module description"
+      "value": "Convert values across common measurement units"
     },
     {
       "name": "EntryAbility_desc",
-      "value": "description"
+      "value": "Convert length, pressure, temperature, volume, and weight units"
     },
     {
       "name": "EntryAbility_label",
